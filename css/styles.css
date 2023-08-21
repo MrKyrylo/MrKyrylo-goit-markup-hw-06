@@ -6,6 +6,7 @@
     left: 0;
     bottom: -1px;
     height: 4px;
+    width: 100%;
     background-color: #404bbf;
     border-radius: 2px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -79,7 +80,7 @@ body {
     padding: 24px 0;
     display: inline-block;
     position: relative;
-    color: #404bbf;
+    color: #2E2F42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -675,6 +676,9 @@ body {
 }
 
 .svg-modal-window {
+    position: absolute;
+    left: 16px;
+    top: 50%;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -898,6 +902,7 @@ body {
 
 .svg-button {
     margin-left: 16px;
+    color: #ffffff;
 }
 
 .p-for-modal-window {
@@ -1002,7 +1007,9 @@ body {
 }
 
 .button-send {
+    position: absolute;
     display: block;
+    left: 27%;
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
@@ -1027,3 +1034,6 @@ body {
     border: none;
     fill: var(--pretty);
 }
+
+/* Для інших пристроїв */
+
